@@ -67,21 +67,21 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header">
-                        <h1>View Record</h1>
+                        <h1>Xem thông tin nhân viên</h1>
                     </div>
                     <div class="form-group">
-                        <label>Name</label>
+                        <label>Tên</label>
                         <p class="form-control-static"><?php echo $row["name"]; ?></p>
                     </div>
                     <div class="form-group">
-                        <label>Address</label>
+                        <label>Địa chỉ</label>
                         <p class="form-control-static"><?php echo $row["address"]; ?></p>
                     </div>
                     <div class="form-group">
-                        <label>Salary</label>
+                        <label>Lương</label>
                         <p class="form-control-static"><?php echo $row["salary"]; ?></p>
                     </div>
-                    <p><a href="index.php" class="btn btn-primary">Back</a></p>
+                    <p><a href="index.php" class="btn btn-primary">Quay lại</a></p>
                 </div>
             </div>        
         </div>
